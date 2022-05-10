@@ -14,7 +14,7 @@ REQUISITOS:
 * Um índice com links internos para as diferentes seções do seu portfólio;
 
 Os seguintes exercícios foram realizados no dia 3.2 do Bloco 3 - Introdução à HTML e CSS do curso da Trybe.
-O objetivo foi continuar a criação do Portfólio para Web adicionando os seguintes requisitos:
+O objetivo foi continuar a criação do Portfólio para Web adicionando os seguintes requisitos ao arquivo:
 
 REQUISITOS:
 
