@@ -1,38 +1,60 @@
-.name {
+body {
+    background-color: #abf3a1;
+    padding: 10px;
+}
+
+h1 {
     font-family:sans-serif;
     text-align: center;
 }
 
-body {
-    background-color: #90dbf4;
-}
 .tags {
     color: #9b2226;
     text-decoration: underline;
     font-size: 20px;
 }
+
 .english {
     font-size: 30px;
 }
+
 .patient {
- font-size: 27px;
+    font-size: 27px;
 }
+
 .comunication {
- font-size: 24px;
+    font-size: 24px;
 }
+
 .colaboration {
- font-size: 21px;
+    font-size: 21px;
 }
+
 .persist {
- font-size: 18px;
+    font-size: 18px;
 }
-img {
-    width: 200px;
-    background-color: darkgreen;
+
+#foto {
+    float: left;
+    height: 280px;
     padding: 10px;
+    background-color: green;
 }
-.desc {
-    position: absolute;
-    top: 185px;
-    left: 230px;
+ .imgdesc {
+     height: 300px;
+     position: relative;
+}
+
+ul li:nth-child(odd) {
+    color:green;
+}
+
+#desc {
+    font-family: sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    position:absolute;
+    right: 25%;
+    top: 60px;
+
 }
