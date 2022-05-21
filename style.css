@@ -54,7 +54,12 @@ ul li:nth-child(odd) {
     text-align: center;
     letter-spacing: 1px;
     position:absolute;
-    right: 25%;
-    top: 60px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
+nav li {
+    display: inline-block;
+    margin-right: 10px;
 }
