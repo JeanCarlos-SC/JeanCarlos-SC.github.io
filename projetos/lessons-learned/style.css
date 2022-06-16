@@ -9,6 +9,7 @@ body {
     border: 1px solid black;
     width: 100%;
     background-color: green;
+    text-align: center;
 }
 
 #minha_foto {
@@ -32,26 +33,45 @@ body {
     padding-top: 1px;
 }
 
-.lado_direito h3 {
-    position: absolute;
-    left: 890px;
-    top: 735px;
+
+.lado-direito {
+    display: inline-block;
+    float: right;
 }
 
-.lado_direito aside {
-    position: absolute;
-    left: 750px;
-    top: 795px;
+.lado-esquerdo {
+    display: inline-block;
 }
-.lado_direito, .lado_esquerdo {
+.lado-direito, .lado-esquerdo {
     width: 50%;
     font-size: 15px;
     text-align: center;
-    letter-spacing: 2px;
+    line-height: 20px;
 }
 #rodape {
+    text-align: center;
     font-weight: 600;
     border: 1px solid black;
-    background-color: green;
+    background-color: lightgreen;
     padding: 2px;
+}
+
+table, tr, td {
+    border: 1px solid black;
+    margin: auto;
+    text-align: center;
+}
+
+caption {
+    color: darkgreen;
+    background-color:chartreuse;
+}
+
+td {
+    background-color: darkseagreen;
+}
+
+.first-line {
+    color: forestgreen;
+    background-color:lightgreen;
 }
